@@ -1,0 +1,46 @@
+body{
+    background-color: #b7b7b7;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+header h1{
+    color: #136b95;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;    
+}
+section{
+    display: flexbox;
+    text-align: center;
+}
+form div{
+    margin: 50px;
+}
+form div label{
+    color: #852c02;
+    font-family: helvetica;
+    font-size: medium;
+    line-height: 0.4em;
+    letter-spacing: 0.05em;
+}
+section article h2{
+    color: #44446a;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    letter-spacing: 0.04em;
+}
+input{
+    padding-left: 10px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+footer h6{
+    color: #131414;
+    font-style: italic;
+    font-family: helvetica;
+    font-weight: bolder;
+    text-align: center;       
+}
