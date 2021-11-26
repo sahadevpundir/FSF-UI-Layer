@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Assignment 17</title>
+</head>
+<body>
+
+    <div>
+        <h2>Assignment 17</h2>
+        <div>
+        <label for="">Product Name</label>
+        <input type="text" data-bind="value:pname"><br></div>
+        <div>
+        <label for="">Product Price</label>
+        <input type="text" data-bind="value:pprice"><br></div>
+        <input type="submit" id="btn" value="Add Product" data-bind="click: addProduct">
+    
+        <h1>Product List</h1>
+        <ul data-bind="foreach : {data: products , as: 'product'} ">
+            <li>
+                Name: <span data-bind="text: product.name"></span>,
+                Price: <span data-bind="text: product.price"></span>
+            </li>
+        </ul>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

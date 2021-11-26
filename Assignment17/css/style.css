@@ -1,0 +1,22 @@
+body{
+    background-color: #eeeeee;
+    color:#333;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    text-align: center;
+    margin: 1%;
+}
+input{
+    padding-left: 10px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+#btn{
+    background-color: lightgreen;
+    color: #333;
+}
+ul{
+    list-style: none;
+}
