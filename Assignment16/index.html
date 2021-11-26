@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+    <!-- Assignment 16 Radio button 
+    Male    -> .male{color:blue}
+    Female  -> .female{color:pink} -->
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Assignment 16</title>
+    </head>
+    <body>
+        <div>
+            <input data-bind="checked:gender" type="radio" value="male" >Male
+            <input data-bind="checked:gender" type="radio" value="female" >Female
+        <!-- Gender : Male <input type="radio" value="male">  Female <input type="radio" value="female"> -->
+
+            <h1 data-bind="css:applyGender">Output</h1>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+    </html>
